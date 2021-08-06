@@ -4,8 +4,19 @@
     "owner": "DataMonsters"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
+    "contributors": [
+      {
+        "name": "Artem Berdashkevich"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Censor",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ],
     "reviewer": "Marat Rakhimov"
   }
 }
