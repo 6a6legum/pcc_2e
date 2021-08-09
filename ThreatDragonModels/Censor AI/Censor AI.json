@@ -388,17 +388,169 @@
               "angle": 0,
               "id": "1beb089d-6857-4060-96ac-c89e9e71c53d",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "privilegeLevel": "Administrator",
+              "threats": [
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic elevation threat",
+                  "threatId": "76ace045-d3f8-4014-9955-25c0bdd83f35"
+                },
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic spoofing threat",
+                  "threatId": "d74dbe18-111e-4f7d-baca-fc7b4f0dd90b"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic tampering threat",
+                  "threatId": "dbc7b47b-dc68-4f6e-a2ce-1ec9d9eee3ca"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "b1fe4c4b-5cc3-4b59-824d-750a7c3f4d37"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "threatId": "64d72c3a-a97b-4e65-a2fe-dac2420d6564"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic DoS threat",
+                  "threatId": "541728a7-dd1d-4b4c-b68e-b8a4e9eb6b25"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "e92cd6c0-94f9-4300-9ff4-d825d1e67270"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "6756b5ab-eedc-45f9-bbbb-ff3b41142f54"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "94da733b-22ad-46c8-aed2-97181895a56e"
+                },
+                {
+                  "ruleId": "896abdef-0e7e-46ec-aeaa-b8e70c233d57",
+                  "title": "Generic threat to Linkability",
+                  "type": "Linkability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to linkability",
+                  "threatId": "7255571c-66eb-479d-b484-f6af1b1ca5ad"
+                },
+                {
+                  "ruleId": "9128c587-bc76-41d0-a02d-5de3b539ecc0",
+                  "title": "Generic threat to Identifiability",
+                  "type": "Identifiability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to identifiability",
+                  "threatId": "866f2d28-6c63-49b2-a7f9-31bc5a27a72f"
+                },
+                {
+                  "ruleId": "74834f24-8f89-40bb-b0c6-d1fdd8b8accc",
+                  "title": "Generic threat to Non-repudiation",
+                  "type": "Non-repudiation",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to non-repudiation",
+                  "threatId": "2ac958e5-fe5a-461b-9a3a-495cc59e53d0"
+                },
+                {
+                  "ruleId": "df43b091-9ffb-44e3-9eb9-471b9ee56d39",
+                  "title": "Generic threat to Detectability",
+                  "type": "Detectability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to detectability",
+                  "threatId": "730e2215-6901-43f8-956b-a86c469cb596"
+                },
+                {
+                  "ruleId": "9d576610-5c53-4f84-90c5-ec70751a339d",
+                  "title": "Generic threat to Disclosure of information",
+                  "type": "Disclosure of information",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to disclosure of information",
+                  "threatId": "dfa4a6a2-4366-457e-906e-d2a073f18248"
+                },
+                {
+                  "ruleId": "6e80d2fc-747a-4ae8-a435-acce06617139",
+                  "title": "Generic threat to Non-compliance",
+                  "type": "Non-compliance",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic threat to non-compliance",
+                  "threatId": "ad2eddcc-005b-42f3-a72e-a389e5d3ffe5"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "SSH"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
