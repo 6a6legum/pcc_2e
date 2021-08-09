@@ -1846,18 +1846,150 @@
               "angle": 0,
               "id": "013a4846-5523-4a9f-b6bf-dde77f8a8ed0",
               "z": 19,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": true,
               "isEncrypted": false,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic tampering threat",
+                  "threatId": "24c6e1c9-69e2-423c-abda-82d84270462d"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "a0e83e49-982f-4ecc-85a5-65092849fb8c"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "threatId": "8b5e80a3-9bc9-4176-ba92-1e9f27ae3003"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "threatId": "4ab46386-f8b1-4ed1-be80-175249707c19"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "3974771e-7726-44b0-b9c4-2464930304c0"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "b2fbc09d-52f5-4e7b-b36e-a21fb0cf7e3e"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "a4561a25-e386-4d88-80b8-ae0201879e72"
+                },
+                {
+                  "ruleId": "896abdef-0e7e-46ec-aeaa-b8e70c233d57",
+                  "title": "Generic threat to Linkability",
+                  "type": "Linkability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to linkability",
+                  "threatId": "8a146c3d-e0ab-48c1-a8d5-c9d76eb0177e"
+                },
+                {
+                  "ruleId": "9128c587-bc76-41d0-a02d-5de3b539ecc0",
+                  "title": "Generic threat to Identifiability",
+                  "type": "Identifiability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to identifiability",
+                  "threatId": "70d3d00a-a29d-40cd-9be4-a5d6f2b3e605"
+                },
+                {
+                  "ruleId": "74834f24-8f89-40bb-b0c6-d1fdd8b8accc",
+                  "title": "Generic threat to Non-repudiation",
+                  "type": "Non-repudiation",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to non-repudiation",
+                  "threatId": "736a033e-b2b6-449d-bf01-6854bb8cd1a7"
+                },
+                {
+                  "ruleId": "df43b091-9ffb-44e3-9eb9-471b9ee56d39",
+                  "title": "Generic threat to Detectability",
+                  "type": "Detectability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to detectability",
+                  "threatId": "43b5369e-f31c-4241-8187-eb08be1cb174"
+                },
+                {
+                  "ruleId": "9d576610-5c53-4f84-90c5-ec70751a339d",
+                  "title": "Generic threat to Disclosure of information",
+                  "type": "Disclosure of information",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic threat to disclosure of information",
+                  "threatId": "6977bab5-51d6-4090-b1d4-0e82e2187afc"
+                },
+                {
+                  "ruleId": "6e80d2fc-747a-4ae8-a435-acce06617139",
+                  "title": "Generic threat to Non-compliance",
+                  "type": "Non-compliance",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic threat to non-compliance",
+                  "threatId": "417b94f8-1276-4de0-a38b-9a654beb3f3c"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Web Aplication Config"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
