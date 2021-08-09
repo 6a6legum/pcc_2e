@@ -1486,6 +1486,9 @@
                   "threatId": "8fcda652-20f6-4bfb-8a24-447393063427"
                 }
               ],
+              "isALog": true,
+              "storesCredentials": true,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -1511,16 +1514,161 @@
               "angle": 0,
               "id": "645e4c7b-5825-4174-9dd5-b7971cf6b2ec",
               "z": 17,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "isALog": true,
+              "storesCredentials": true,
+              "isEncrypted": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic tampering threat",
+                  "threatId": "55749327-4e38-4cad-84f4-f5f1bcc4ffaa"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "72ffeb73-f3c1-45db-b193-a542989e7260"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "threatId": "63d33825-42ed-4d59-95bb-0bfb1b81930f"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "threatId": "c68cd69d-9a39-4ae6-8fb3-0c10d8a56b5e"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "868ef3f2-79e2-4165-88dd-2d099bbc2d5e"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "cbe0322b-244c-49d5-a461-bed402c89b5b"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "a47a2149-2a03-4687-a0fb-f749257b451c"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic tampering threat",
+                  "threatId": "e77e93c9-75dc-49a3-a4a1-ab6897dc55cc"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "6231f2bc-94ab-4331-af16-398a6411fe57"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "threatId": "24876dcd-cdf6-4f2b-8988-d93d75482bc1"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "threatId": "6826f572-46de-4414-9197-7c236d4d4976"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "bc4e209b-67f8-436b-b1d7-762f6643737c"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "0de8948f-64e4-4e64-b27a-ec25fb5563cb"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "f4ee9643-53d3-49d2-8123-21ca43dd4803"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kuberbetes/KubeFlow"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1537,19 +1685,151 @@
               "angle": 0,
               "id": "a6987307-9c95-403e-83b5-2e173911d528",
               "z": 18,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": true,
               "storesCredentials": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic tampering threat",
+                  "threatId": "ac189247-4f61-42fc-b83c-c96962260f59"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "2cba2fc5-9622-4537-866e-69db0a4a1331"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "threatId": "5639fdbd-8594-4d8e-acad-8823940a0640"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "threatId": "2e0c6227-4637-4c40-bad6-12b8e5facbb4"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "7186a0da-73de-42f0-a5bd-d9e6271878f1"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "a82c7c80-ae0f-44ac-83f3-0e952bea135d"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "da54a6c4-257e-4209-af62-e3560c3116f3"
+                },
+                {
+                  "ruleId": "896abdef-0e7e-46ec-aeaa-b8e70c233d57",
+                  "title": "Generic threat to Linkability",
+                  "type": "Linkability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to linkability",
+                  "threatId": "41d52464-add2-4c13-aea5-85bbe0e42f69"
+                },
+                {
+                  "ruleId": "9128c587-bc76-41d0-a02d-5de3b539ecc0",
+                  "title": "Generic threat to Identifiability",
+                  "type": "Identifiability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to identifiability",
+                  "threatId": "01d335e1-5b3c-4600-a5dc-69e5c606ae9a"
+                },
+                {
+                  "ruleId": "74834f24-8f89-40bb-b0c6-d1fdd8b8accc",
+                  "title": "Generic threat to Non-repudiation",
+                  "type": "Non-repudiation",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to non-repudiation",
+                  "threatId": "a8bdad3f-9bfa-407d-adb6-b1d44542c617"
+                },
+                {
+                  "ruleId": "df43b091-9ffb-44e3-9eb9-471b9ee56d39",
+                  "title": "Generic threat to Detectability",
+                  "type": "Detectability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to detectability",
+                  "threatId": "e3af0d36-7d47-49a3-9acf-7800b2bc2ea4"
+                },
+                {
+                  "ruleId": "9d576610-5c53-4f84-90c5-ec70751a339d",
+                  "title": "Generic threat to Disclosure of information",
+                  "type": "Disclosure of information",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to disclosure of information",
+                  "threatId": "606d881a-6cf9-4435-86ac-37d6d2f7166e"
+                },
+                {
+                  "ruleId": "6e80d2fc-747a-4ae8-a435-acce06617139",
+                  "title": "Generic threat to Non-compliance",
+                  "type": "Non-compliance",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic threat to non-compliance",
+                  "threatId": "fea5a56d-c86b-47ae-aeaa-d34bcaec9586"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Databasses"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1567,6 +1847,8 @@
               "id": "013a4846-5523-4a9f-b6bf-dde77f8a8ed0",
               "z": 19,
               "hasOpenThreats": false,
+              "isALog": true,
+              "isEncrypted": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1593,6 +1875,7 @@
               "id": "000fbaa4-df35-4e8c-a255-bc2a0bc35db5",
               "z": 20,
               "hasOpenThreats": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1619,6 +1902,7 @@
               "id": "929e51e2-b402-485e-94df-9741fe95667c",
               "z": 21,
               "hasOpenThreats": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1645,6 +1929,7 @@
               "id": "14978474-3b97-494d-9697-01f9a3739f88",
               "z": 22,
               "hasOpenThreats": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1671,6 +1956,8 @@
               "id": "b894ad82-e3ef-414c-a9f0-a3356f454d77",
               "z": 23,
               "hasOpenThreats": false,
+              "isALog": true,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1697,6 +1984,7 @@
               "id": "92a8d5f2-952f-4ec1-a4c4-64a87fd38973",
               "z": 24,
               "hasOpenThreats": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1723,6 +2011,7 @@
               "id": "3f96be07-cf54-40a0-914b-81f163a37e3c",
               "z": 25,
               "hasOpenThreats": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
