@@ -485,16 +485,98 @@
               "angle": 0,
               "id": "85783b96-72df-41a1-b318-9d13b67bfd55",
               "z": 15,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic spoofing threat",
+                  "threatId": "7f555c16-122a-4ce9-b45b-a7b5ebe17033"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic repudiation threat",
+                  "threatId": "99c2fd83-5461-4a1b-bd80-7ced557ea2eb"
+                },
+                {
+                  "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
+                  "title": "Generic threat to Confidentiality",
+                  "type": "Confidentiality",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic threat to confidentiality",
+                  "threatId": "8592706f-e941-4b06-9424-44d5b683a3a0"
+                },
+                {
+                  "ruleId": "42511938-37d9-4bb6-866c-947a7c776e7e",
+                  "title": "Generic threat to Integrity",
+                  "type": "Integrity",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to integrity",
+                  "threatId": "6cf250b8-a8d8-47de-bb3d-a260fccd477e"
+                },
+                {
+                  "ruleId": "52453492-f49f-411e-a59d-5fc2dd98664b",
+                  "title": "Generic threat to Availability",
+                  "type": "Availability",
+                  "modelType": "CIA",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to availability",
+                  "threatId": "4388b47f-f966-440c-a06a-20f4ad908413"
+                },
+                {
+                  "ruleId": "896abdef-0e7e-46ec-aeaa-b8e70c233d57",
+                  "title": "Generic threat to Linkability",
+                  "type": "Linkability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to linkability",
+                  "threatId": "1b299b99-755f-45b7-8a8a-fc58eef39e19"
+                },
+                {
+                  "ruleId": "9128c587-bc76-41d0-a02d-5de3b539ecc0",
+                  "title": "Generic threat to Identifiability",
+                  "type": "Identifiability",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to identifiability",
+                  "threatId": "a8f774b5-56bb-41db-9f06-1cdd91acf1d0"
+                },
+                {
+                  "ruleId": "8d0993c0-9d92-4c51-99f5-6772270a7d88",
+                  "title": "Generic threat to Unawareness",
+                  "type": "Unawareness",
+                  "modelType": "LINDDUN",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic threat to unawareness",
+                  "threatId": "6bafde6e-1c51-467d-8105-ac3a71b07cc1"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Jupyter User"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
