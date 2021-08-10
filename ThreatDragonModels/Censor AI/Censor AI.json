@@ -988,10 +988,11 @@
                   "title": "Spoofing threat",
                   "type": "Spoofing",
                   "modelType": "STRIDE",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "description": "A spoofing threat",
-                  "threatId": "7731bd3b-84d3-4734-a8da-ebee4bdf440a"
+                  "threatId": "7731bd3b-84d3-4734-a8da-ebee4bdf440a",
+                  "mitigation": "Token, Nginx Header, Role, Semgrep, Pentest"
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
